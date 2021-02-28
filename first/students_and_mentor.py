@@ -9,14 +9,10 @@ class Student:
 
 
 class Mentor:
-    name = ''
-    surname =''
-    teaching_course =[]
-
-    def __init__(self, name, surname,):
+    def __init__(self, name, surname, teaching_course):
         self.name = name
         self.surname = surname
-        self.teaching_course = []
+        self.teaching_course = teaching_course
 
 
 
@@ -24,8 +20,10 @@ class Lecturer(Mentor):
     def __init__(self,name, surname, teaching_course):
         Mentor. __init__ (self,name, surname, teaching_course)
 
+
 class Reviewer(Mentor):
     def __init__(self,name, surname, teaching_course):
         Mentor. __init__ (self,name, surname, teaching_course)
+
 
 
