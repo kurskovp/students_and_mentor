@@ -27,3 +27,9 @@ class Reviewer(Mentor):
 
 
 
+# Проверочный блок:
+
+john = Student("John", "Smith", "male")
+john.courses_in_progress = ["Python", "Git", "Введение в програмирование"]
+
+print(john.courses_in_progress[1])
